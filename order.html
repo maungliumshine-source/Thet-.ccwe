@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>TIME | Order</title>
+   
+</head>
+<body>
+    <nav>
+        <div class="logo">TIME GALLERY</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="brands.html">Brands</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+   
+  <div class="order-container">
+    <h2>Order Your Watch</h2>
+    <form action="#confirm-box1">
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="09xxxxxxxxx" required>
+        </div>
+
+        <div class="form-group">
+            <label for="address">Delivery Address</label>
+            <textarea id="address" name="address" placeholder="Enter your full address" required></textarea>
+        </div>
+
+       <div class="form-group">
+            <label for="gallery">Choose Gallery</label>
+            <select id="gallery" name="gallery" required>
+                <option value="" disabled selected>Choose Gallery</option>
+                <option>Watch1</option>
+                <option>Watch2</option>
+                <option>Watch3</option>
+               
+                
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="payment">Payment Method</label>
+            <select id="payment" name="payment" required>
+                <option value="" disabled selected>Select Payment Method</option>
+                <option value="kbz_pay">KBZ Pay</option>
+                <option value="kpay">Kpay</option>
+                <option value="wave_pay">Wave Pay</option>
+                <option value="cod">Cash on Delivery</option>
+                <option value="bank_transfer">Mobile Banking</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="remark">Note (Optional)</label>
+            <textarea id="remark" name="remark" placeholder="Color preference or gift wrapping..."></textarea>
+        </div>
+
+        <button type="submit" class="order-btn1">Order Now</button>
+    </form>
+</div>
+
+<div id="confirm-box1" class="modal-overlay1">
+    <div class="modal-content1">
+        <h3>Confirmed Order!</h3>
+        <p>Thank you for your order.</p>
+        <a href="#" class="close-btn1">OK</a>
+    </div>
+</div>
+
+
+    
+
+
+     <footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-col">
+            <div class="logo">TIME GALLERY</div>
+            <p>Curating the finest timepieces that define your legacy. Experience timeless elegance and precision engineering.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/18MVpV5i3z/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.tiktok.com/@marnmarnoo2008?_r=1&_t=ZS-95kJAKTh4nk"><i class="fab fa-tiktok"></i></a>
+                <a href="www.youtube.com/@HsaungHayMarnOo-y4t"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="brands.html">Brands</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Contact Info</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Dawei, Myanmar</p>
+            <p><i class="fas fa-phone"></i> (+95) 423-234-222</p>
+            <p><i class="fas fa-envelope"></i> timegallery@gmail.com</p>
+        </div>
+
+        <div class="footer-col">
+            <h4>Newsletter</h4>
+            <p>Subscribe for exclusive launches and news.</p>
+           
+                <form action="#confirm-box4" class="confirm-box4-noti newsletter-form">
+                <input type="email" placeholder="Your Email" required>
+                <button type="submit" class="order-btn4">Join</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 TIME GALLERY | Designed by Hsaung Hay Marn Oo.</p>
+    </div>
+</footer>
+ <div id="confirm-box4" class="modal-overlay4">
+    <div class="modal-content4">
+        <h3>Successfully joined!</h3>
+        <p>Thank you for your subscribing.</p>
+        <a href="#" class="close-btn4">OK</a>
+    </div>
+</div>
+
+</body>
+</html>
